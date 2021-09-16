@@ -8,9 +8,8 @@ describe('GreeterComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GreeterComponent ]
-    })
-    .compileComponents();
+      declarations: [GreeterComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

@@ -2,17 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { VoterComponent } from './1-voter/voter.component';
 import { GreeterComponent } from './greeter/greeter.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    GreeterComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, VoterComponent, GreeterComponent],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
