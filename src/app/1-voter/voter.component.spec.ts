@@ -25,12 +25,12 @@ describe('VoterComponent', () => {
     expect(el.innerText).toContain('21');
   });
 
-  /* it('should highlight upvote button while I upvoted', () => {
+  it('should highlight upvote button while I upvoted', () => {
     component.myVote = 1;
     fixture.detectChanges();
     let de = fixture.debugElement.query(By.css('.glyphicon-menu-up'));
     expect(de.classes['highlighted']).toBeTruthy();
-  }); */
+  });
 
   /* it('should increase total vote when I upvote', () => {
 
